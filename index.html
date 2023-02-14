@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,175 +19,301 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
-              <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-                <span class="fs-4">Stray Animal Foundation</span>
-              </a>
-        
-              <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Ways to Help</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">What We Do</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Donate</a></li>
-            </header>
+  <header>
+      <!--Navbar-->
+      <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
+          <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <img src="main_logo.png" alt="" class="bi me-2" width="70" height="60">
+            <span class="fs-4 fw-semibold">Animal Welfare</span>
+          </a>
+
+          <ul class="nav nav-pills align-items-center">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link active" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">What We Do</a></li>
+                <li><a class="dropdown-item" href="#">Causes</a></li>
+                <li><a class="dropdown-item" href="#">Ways to Help</a></li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item">
+                <a href="waystohelp.html" class="nav-link">Ways to Help</a>
+            </li>
+            <li class="nav-item">
+                <a href="whatwedo.html#" class="nav-link">What We Do</a>
+            </li> 
+            <li class="nav-item">
+                <a href="causes.html" class="nav-link">Causes</a>
+            </li> -->
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact Us</a>
+            </li>
+            <li class="nav-item">
+            <a href="donate.html" class="nav-link">Donate</a>
+            </li>
+          </ul>  
+        </header>
+      </div>
+
+
+
+  <!--Hero-->
+      <div class="cause-page-banner d-flex align-items-center" style="background: url('https://res.cloudinary.com/project-world-impact/image/upload/h_800,w_1400/v1654275139/system/cause/Animals/animal-shelters/1.jpg') no-repeat center center; background-size: cover;background-attachment: fixed; height: 600px; color: #ccc;">         
+        <div class="px-4 py-5 text-center container">
+            <h1 class="display-5 fw-bold ">BUILD NEW LIVES FOR STREET ANIMALS</h1>
+          <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">Worlds’s stray animal population numbers nearly 600 million. However, World’s shelter system already faces population stress with less than 9 million animals. SAFI’s work finding forever homes for these neglected animals not only gives each pet the love they deserve but frees up critically important housing and veterinary capacity for those remaining in shelters.</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                  <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Share</button>
+                  <button type="button" class="btn btn-secondary btn-lg px-4">Follow</button>
+              </div>
+          </div> 
         </div>
-        <div class="cause-page-banner" style="background: url('https://res.cloudinary.com/project-world-impact/image/upload/h_800,w_1400/v1654275139/system/cause/Animals/animal-shelters/1.jpg') no-repeat center center; background-size: cover;background-attachment: fixed;">         
-            <div class="px-4 py-5 text-center container">
-                <img class="d-block mx-auto mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-                    <h1 class="display-5 fw-bold ">BUILD NEW LIVES FOR STREET ANIMALS</h1>
-                    <div class="col-lg-6 mx-auto">
-                        <p class="lead mb-4">Worlds’s stray animal population numbers nearly 600 million. However, World’s shelter system already faces population stress with less than 9 million animals. SAFI’s work finding forever homes for these neglected animals not only gives each pet the love they deserve but frees up critically important housing and veterinary capacity for those remaining in shelters.</p>
-                        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Share</button>
-                            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Follow</button>
-                            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Donate</button>
-                        </div>
+      </div>
+
+      <div style="box-shadow: 0 3px 5px #ccc;">
+        <div class="container py-2">
+          <h5 class="col-xs-12 m-5 text-align-center text-center">
+            Animal Welfare project is an online hub for individuals and nonprofits looking for innovative ways to make a difference in their communities.
+          </h5>
+        </div>
+      </div>
+  </header>
+      
+  <main>
+      <!--Album-->
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-bold">Nonprofits that Suppport Animal Welfare Project</h1>
+            <p class="lead text-muted">View the amazing work that nonprofits are doing to support Animal Shelters.</p>
+            <p>
+              <a href="#" class="btn btn-primary my-2">Main call to action</a>
+              <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+            </p>
+          </div>
+        </div>
+    </section>
+    <div class="album py-3 bg-light">
+        <div class="container">       
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-md-4 g-3">
+
+            <div class="col">
+              <div class="elementor-image">
+                <img decoding="async" width="100%" height="225" src="https://media.istockphoto.com/photos/cat-and-dog-sleeping-puppy-and-kitten-sleep-picture-id1168451046?b=1&k=20&m=1168451046&s=612x612&w=0&h=RPHJBHJrHgXYFRcHx-AvI7c8s-2Jv6NhGmn3oIVtbtA=" class="attachment-full size-full" alt="Animal Cruelty" loading="lazy" srcset="https://media.istockphoto.com/photos/cat-and-dog-sleeping-puppy-and-kitten-sleep-picture-id1168451046?b=1&k=20&m=1168451046&s=612x612&w=0&h=RPHJBHJrHgXYFRcHx-AvI7c8s-2Jv6NhGmn3oIVtbtA= 640w, https://media.istockphoto.com/photos/cat-and-dog-sleeping-puppy-and-kitten-sleep-picture-id1168451046?b=1&k=20&m=1168451046&s=612x612&w=0&h=RPHJBHJrHgXYFRcHx-AvI7c8s-2Jv6NhGmn3oIVtbtA= 300w" sizes="(max-width: 640px) 100vw, 640px">
+                <div class="container py-3">
+                  <div class="flex flex-column">
+                    <div class="text-center mb-3">Human Society Inc</div>
+                    <div class="text-start mb-2">LOCATION: United States of America</div>
+                    <div class="text-start mb-2">CAUSES: Animals</div>
+                    <div class="btn-group" >
+                      <div class="btn-group" >
+                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                          <a href="file:///C:/xampp/htdocs/mini-project-1/animals.html">View Profile</a>
+                        </button>
+                      </div>
                     </div>
-            </div>
-        </div>
-    </header>
-    <main>
-    <!--Album-->
-        <section class="py-5 text-center container">
-            <div class="row py-lg-5">
-              <div class="col-lg-6 col-md-8 mx-auto">
-                <h1 class="fw-bold">Nonprofits that Suppport Stray Animal Foundation</h1>
-                <p class="lead text-muted">View the amazing work that nonprofits are doing to support Animal Shelters.</p>
-                <p>
-                  <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                  <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-                </p>
+                  </div>
+                </div>
               </div>
             </div>
-        </section>
-        <div class="album py-5 bg-light">
-            <div class="container">       
-              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="elementor-image">
+                <img decoding="async" width="100%" height="225" src="https://images.pexels.com/photos/433333/pexels-photo-433333.jpeg?auto=compress&cs=tinysrgb&w=600" class="attachment-full size-full" alt="Animal Cruelty" loading="lazy" srcset="https://images.pexels.com/photos/433333/pexels-photo-433333.jpeg?auto=compress&cs=tinysrgb&w=600 640w, https://images.pexels.com/photos/433333/pexels-photo-433333.jpeg?auto=compress&cs=tinysrgb&w=600 300w" sizes="(max-width: 640px) 100vw, 640px">
+                <div class="container py-3">
+                  <div class="flex flex-column">
+                    <div class="text-center mb-3">Armory Foundation</div>
+                    <div class="text-start mb-2">LOCATION: United States of America</div>
+                    <div class="text-start mb-2">CAUSES: Education</div>
+                    <div class="btn-group" >
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        <a href="file:///C:/xampp/htdocs/mini-project-1/education.html">View Profile</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="elementor-image">
+                <img decoding="async" width="100%" height="225" src="https://media.istockphoto.com/id/1160932512/photo/portrait-of-excited-elementary-school-pupils-on-playing-field-at-break-time.jpg?b=1&s=612x612&w=0&k=20&c=2MnuVkg01TdWG3zrMknKsixpSXwcmBnsvE5EWuUXSY4=" class="attachment-full size-full" alt="Animal Cruelty" loading="lazy" srcset="https://media.istockphoto.com/id/1160932512/photo/portrait-of-excited-elementary-school-pupils-on-playing-field-at-break-time.jpg?b=1&s=612x612&w=0&k=20&c=2MnuVkg01TdWG3zrMknKsixpSXwcmBnsvE5EWuUXSY4= 640w, hhttps://media.istockphoto.com/id/1160932512/photo/portrait-of-excited-elementary-school-pupils-on-playing-field-at-break-time.jpg?b=1&s=612x612&w=0&k=20&c=2MnuVkg01TdWG3zrMknKsixpSXwcmBnsvE5EWuUXSY4= 300w" sizes="(max-width: 640px) 100vw, 640px">
+                <div class="container py-3">
+                  <div class="flex flex-column">
+                    <div class="text-center mb-3">Blue Water Surrender</div>
+                    <div class="text-start mb-2">LOCATION: United States of America</div>
+                    <div class="text-start mb-2">CAUSES: Children</div>
+                    <div class="btn-group" >
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        <a href="file:///C:/xampp/htdocs/mini-project-1/children.html">View Profile</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="elementor-image">
+                <img decoding="async" width="100%" height="225" src="https://media.istockphoto.com/id/1181366400/photo/in-the-hands-of-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-on.jpg?b=1&s=612x612&w=0&k=20&c=FiJ1Y22CEv7fgiQSR6zvYpo9wDe_upE6FS5d7vYKXUI=" class="attachment-full size-full" alt="Animal Cruelty" loading="lazy" srcset="https://media.istockphoto.com/id/1181366400/photo/in-the-hands-of-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-on.jpg?b=1&s=612x612&w=0&k=20&c=FiJ1Y22CEv7fgiQSR6zvYpo9wDe_upE6FS5d7vYKXUI= 640w, https://media.istockphoto.com/id/1181366400/photo/in-the-hands-of-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-on.jpg?b=1&s=612x612&w=0&k=20&c=FiJ1Y22CEv7fgiQSR6zvYpo9wDe_upE6FS5d7vYKXUI= 300w" sizes="(max-width: 640px) 100vw, 640px">
+                <div class="container py-3">
+                  <div class="flex flex-column">
+                    <div class="text-center mb-3">Fort Collins Museum of Discovery </div>
+                    <div class="text-start mb-2">LOCATION: United States of America</div>
+                    <div class="text-start mb-2">CAUSES: Environment</div>
+                    <div class="btn-group" >
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        <a href="file:///C:/xampp/htdocs/mini-project-1/environment.html">View Profile</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+        </div>
+      </div>
+    </div>
+<!--Features-->
+    <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom display-4 fw-bold">Let's care!</h2>
 
-                <div class="col">
-                  <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-        
-                <div class="col">
-                  <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>            
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://awionline.org/sites/default/files/styles/hotlink_image/public/page/hotlink_image/23-homepage-wild.webp?itok=OC4iJh-j'); no-repeat center center; background-size: cover;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Wild Animals</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://awionline.org/sites/default/files/styles/hotlink_image/public/page/hotlink_image/20-homepage-farm_0.webp?itok=5JHMBMLY'); no-repeat center center; background-size: cover;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Farm Animals</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://awionline.org/sites/default/files/styles/hotlink_image/public/page/hotlink_image/20-homepage-marine_0.webp?itok=nGves39p'); no-repeat center center; background-size: cover;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Marine Animals</h3>
+              </div>
             </div>
           </div>
         </div>
+      </div>
+
+<!--Blog-->
+    <div class="container-fluid g-0">
+      <div class="row">
+        <div class="col">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
+            <div class="col d-flex align-items-center">
+              <div class="p-4 d-flex flex-column position-static ms-5 ">
+                <strong class="d-inline-block mb-2 text-primary">World</strong>
+                <h1 class="fw-bold mb-2">Get Educated About Economic Development</h1>
+                <h3 class="fw-bold mb-2">SUMMARY</h3>
+                <div class="mb-1 text-muted">Nov 12</div>
+                <p class="card-text mb-5">Forty six nations are signatories of the Universal Declaration on Animal Welfare, a series of principles designed to protect the welfare of animals.1 The Convention on International Trade in Endangered Species of Wild Fauna and Flora formed an international agreement to prohibit the trade of rare plant and animal species so as to eliminate trade as a contributor to endangerment and extinction.2 The United States, Canada, Mexico, the majority of Europe, India, South Africa, Tanzania, Malaysia, Indonesia, Kenya, the Philippines, Japan, portions of South America and Australia have policies — ranging in extent — providing protection for animals, whether they be domestic, wildlife or livestock. A majority of African, Eastern European and Asian nations have little to no protections for animals.3 The World Animal Protection Index gives Austria, the United Kingdom and Switzerland the highest ratings of the 50 selected nations for animal protection for their recognition of animal sentience, support of the Universal Declaration of Animal Welfare, laws against mistreatment of animals, safeguards against abuse of animals being raised in farm systems, as well as captive and domestic animals, wildlife and animals used for research. The index also rates the three nations highly for their support of the efforts of the World Organization for Animal Health (OIE) and the acceptance of OIE standards.</p>
+                <a href="#" class="stretched-link">Show References</a>
+              </div>
+            </div>
+            <div class="col d-none d-lg-block">
+              <img src="images/dog1.jpeg" alt="" width="100%" height="100%">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!--Blog-->
+    <div class="container-fluid">
+        <div class="row text-bg-dark" style="background-image:url('https://res.cloudinary.com/project-world-impact/image/upload/h_800,w_1400/v1654275139/system/cause/Animals/Wild-Animals-Captivity/3.jpg');background-size:cover;background-position: center center; ">
+          <div class="col-6">
+            <div class="p-4 p-md-5 rounded">
+              <h1 class="display-4 fw-bold ">ANIMAL WELFARE NEWS</h1>
+              <p class="lead my-3">Check out the latest news and articles about Animal Welfare.</p>
+              <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="p-2 p-md-3 rounded">
+              <p class="fw-bold ">No 'Cow Hug Day' On February 14, Centre Withdraws Appeal - NDTV</p>
+              <p class="lead my-3">NDTV | 10 February 2023</p>
+              <p><a href="#" class="text-white fw-bold">Read More</a></p>
+            </div>
+            <div class="p-2 p-md-3 rounded">
+              <p class="fw-bold ">Animal Welfare Board withdraws appeal to celebrate Feb 14 as 'Cow Hug Day' - Deccan Herald</p>
+              <p class="lead my-3">Deccan Herald | 10 February 2023</p>
+              <p><a href="#" class="text-white fw-bold">Read More</a></p>
+            </div>
+            <div class="p-2 p-md-3 rounded">
+              <p class="fw-bold ">Animal Welfare Board withdraws appeal to celebrate February 14 as 'Cow Hug Day' amid criticism - Indiatimes.com</p>
+              <p class="lead my-3">Indiatimes.com | 10 February 2023</p>
+              <p><a href="#" class="text-white fw-bold">Read More</a></p>
+            </div>
+            <div class="p-2 p-md-3 rounded">
+              <p class="fw-bold ">Spain's Congress excludes hunting dogs from new animal rights law - Reuters.com</p>
+              <p class="lead my-3">Reuters.com | 09 February 2023</p>
+              <p><a href="#" class="text-white fw-bold">Read More</a></p>
+            </div>
+            <div class="p-2 p-md-3 rounded">
+              <p class="fw-bold ">Dog Adoptions Are Free Through Valentine’s Day At The Escambia Animal Shelter - NorthEscambia.com</p>
+              <p class="lead my-3">NorthEscambia.com | 11 February 2023</p>
+              <p><a href="#" class="text-white fw-bold">Read More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
 <!--New Section-->
-        <section class="d-flex h-100 text-center text-bg-dark p-5 my-5">
-            <main class="px-3">
-                <h1>EVERY DONATION HELPS</h1>
-                    <p class="lead">We understand better than anyone if your compassion for India’s neglected animals exceeds your ability to care for one of them. Your donation—whatever you can spare—helps us build India’s animal infrastructure so more disadvantaged animals can find a home. All donations are tax-deductible.</p>
-                    <p class="lead">
-                        <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Donate</a>
-                    </p>
-            </main>
-        </section>
-    </body>
-    </main>
-    <div class="container">
+    <section class="d-flex h-100 text-center text-bg-dark p-5">
+        <main class="px-3">
+            <h1>EVERY DONATION HELPS</h1>
+                <p class="lead">We understand better than anyone if your compassion for India’s neglected animals exceeds your ability to care for one of them. Your donation—whatever you can spare—helps us build India’s animal infrastructure so more disadvantaged animals can find a home. All donations are tax-deductible.</p>
+                <p class="lead">
+                    <a href="donate.html" class="btn btn-lg btn-light fw-bold border-white bg-white">Donate</a>
+                </p>
+        </main>
+    </section>
+  </main>
+    
+  <!--Footer-->     
+      <div class="container">
         <footer class="py-3 my-4">
           <ul class="nav justify-content-center border-bottom pb-3 mb-3">
             <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact Us</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Donate</a></li>
           </ul>
-          <p class="text-center text-muted">© 2022 Company, Inc</p>
+          <p class="text-center text-muted">© 2023 Animal Welfare, Inc</p>
         </footer>
       </div>
+
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

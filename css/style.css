@@ -1,0 +1,146 @@
+
+
+/*ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+ul li{
+    float: left;
+    height: 55px;
+    background-color: darkgrey;
+    opacity: .9;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    display: block;
+}
+
+
+ul li a:hover {
+    background-color: lightsalmon;
+}
+
+
+ul li ul li{
+    display: none;
+}
+
+ul li:hover {
+    display: block;
+} 
+
+
+ul li a:hover {
+    background-color: blue;
+} */
+
+.card {
+    border: 5px;
+}
+
+.card-text {
+    text-align: left;
+}
+
+
+.cause-summary-section {
+    width: 100vw;
+    position: relative;
+    left: calc(50% - 50vw);
+    color: #333;
+    font-family: 'proxima-nova';
+    background-color: #f2f2f2;
+}
+
+.content-wrap-font {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: proxima-nova,sans-serif;
+}
+
+
+.custom-container {
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.newsletter,
+.custom-container,
+.newsletter-description,
+.newsletter-title {
+    text-align: center;
+}
+
+.newsletter {
+    background-color: #333;
+    padding: 30px 0;
+    color: #fff;
+    font-family: proxima-nova;
+    width: 100vw;
+    position: relative;
+    left: calc(50% - 50vw);  
+}
+ 
+
+
+.n-form-wrap {
+    width: 40%;
+    margin-top: 15px;
+    min-width: 400px;
+    text-align: center;
+}
+
+
+.sub-heading-title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.heading-title,
+.sub-heading-title {
+    font-family: proxima-nova, sans-serif;
+}
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color: var(--bs-secondary-color)!important;
+}
+
+.bi {
+    vertical-align: -0.125em;
+    fill: currentColor;
+}
+
+
+
+
+/* Animals Section */
+.homepage .homepage-section .explore-nonprofits .explore-org-item-wrapper .explore-org-item .explore-org-info .explore-org-view-profile-button-wrapper {
+    text-align: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/*Index.html Cover*/
+
+.fade-bg {
+    position: sticky;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .5;
+    left: 0;
+    top: 0;
+}

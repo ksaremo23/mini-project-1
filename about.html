@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,82 +18,73 @@
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    
 </head>
 
-
 <body>
-  <div class="container">
-    <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
-      <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <img src="main_logo.png" alt="" class="bi me-2" width="40" height="40">
-        <span class="fs-4">Animal Welfare</span>
-      </a>
+  <header>
+      <!--Navbar-->
+      <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
+          <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <img src="main_logo.png" alt="" class="bi me-2" width="70" height="60">
+            <span class="fs-4 fw-semibold">Animal Welfare</span>
+          </a>
 
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-            <a href="index.html" class="nav-link active" aria-current="page">Home</a>
-        </li>
-        <li class="nav-item">
-            <a href="about.html" class="nav-link">About</a>
-        </li>
-        <li class="nav-item">
-            <a href="waystohelp.html" class="nav-link">Ways to Help</a>
-        </li>
-        <li class="nav-item">
-            <a href="whatwedo.html#" class="nav-link">What We Do</a>
-        </li>
-        <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact Us</a>
-        </li>
-        <li class="nav-item">
-            <a href="causes.html" class="nav-link">Causes</a>
-        </li>
-        <li class="nav-item">
-        <a href="donate.html" class="nav-link">Donate</a>
-        </li>
-      </ul>  
-    </header>
-  </div>
-
-
+          <ul class="nav nav-pills align-items-center">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item dropdown active" aria-current="page">
+              <a class="nav-link dropdown-toggle" href="about.html" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">What We Do</a></li>
+                <li><a class="dropdown-item" href="#">Causes</a></li>
+                <li><a class="dropdown-item" href="#">Ways to Help</a></li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item">
+                <a href="waystohelp.html" class="nav-link">Ways to Help</a>
+            </li>
+            <li class="nav-item">
+                <a href="whatwedo.html#" class="nav-link">What We Do</a>
+            </li> 
+            <li class="nav-item">
+                <a href="causes.html" class="nav-link">Causes</a>
+            </li> -->
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact Us</a>
+            </li>
+            <li class="nav-item">
+            <a href="donate.html" class="nav-link">Donate</a>
+            </li>
+          </ul>  
+        </header>
+      </div>
 
 
 
   <!--Hero-->
-  <div class="homepage" style="height:auto !important;">
-    <div class="background-image b-lazy b-loaded" style="background-repeat: no-repeat; background-position: center center; background-size: cover; background-image: url(https://projectworldimpact.com/images/homepage/HB_China3.jpg);height: 600px;">
-      <div class="background-image-text-wrapper text-align-center">
-        <div>
-          <section class="py-5 text-center container">
-            <div class="row py-lg-5 d-flex align-items-center">
-              <div class="col-lg-6 col-md-8 mx-auto">
-                <h1 class="fw-bold">Nonprofits that Suppport Stray Animal Foundation</h1>
-                <p class="lead text-white">Helping over 100,000 nonprofits connect with over 10,000,000 users and counting</p>
-                <p>
-                <h4 class="fw-bold">
-                  DISCOVER NONPROFITS BY CAUSE OR COUNTRY
-                </h4>
-                  <a href="#" class="btn btn-primary my-2">CAUSES</a>
-                  <a href="#" class="btn btn-secondary my-2">COUNTRIES</a>
-                </p>
+      <div class="cause-page-banner d-flex align-items-center" style="background: url('https://res.cloudinary.com/project-world-impact/image/upload/h_800,w_1400/v1654275139/system/cause/Animals/animal-shelters/1.jpg'), radial-gradient(#999, #555); no-repeat center center; background-size: cover;background-attachment: fixed; height: 600px; color: #fff;">         
+        <div class="px-4 py-5 text-center container">
+            <h1 class="display-2 fw-bold ">BUILD NEW LIVES FOR STREET ANIMALS</h1>
+          <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4 fw-semibold">Worlds’s stray animal population numbers nearly 600 million. However, World’s shelter system already faces population stress with less than 9 million animals. SAFI’s work finding forever homes for these neglected animals not only gives each pet the love they deserve but frees up critically important housing and veterinary capacity for those remaining in shelters.</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                  <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Share</button>
+                  <button type="button" class="btn btn-secondary btn-lg px-4">Follow</button>
               </div>
-            </div>
-        </section>
+          </div> 
         </div>
       </div>
-    </div>
-  </div>
-  
 
-  <div style="box-shadow: 0 3px 5px #ccc;">
-    <div class="container py-2">
-      <h5 class="col-xs-12 m-5 text-align-center text-center">
-        Animal Welfare project is an online hub for individuals and nonprofits looking for innovative ways to make a difference in their communities.
-      </h5>
-    </div>
-  </div>
+      <div style="box-shadow: 0 3px 5px #ccc;">
+        <div class="container py-2">
+          <h5 class="col-xs-12 m-5 text-align-center text-center">
+            Animal Welfare project is an online hub for individuals and nonprofits looking for innovative ways to make a difference in their communities.
+          </h5>
+        </div>
+      </div>
+  </header>
       
 <!--Album-->
         <section class="py-5 text-center container">

@@ -1,46 +1,65 @@
 
 
-/*ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
+.title {
+    font-size: 750% ;
+  }
 
 
-ul li{
-    float: left;
-    height: 55px;
-    background-color: darkgrey;
-    opacity: .9;
-    line-height: 40px;
-    text-align: center;
-    font-size: 15px;
-}
 
-ul li a{
+/* Nav-links*/
+
+  a.nav-link:link {
     text-decoration: none;
-    display: block;
-}
+  }
 
+  a.nav-link:visited {
+    text-decoration: none;
+  }
 
-ul li a:hover {
-    background-color: lightsalmon;
-}
+  a.nav-link:hover {
+    text-decoration: underline;
+    background-color: whitesmoke;
+  }
 
+  a.nav-link:active {
+    text-decoration: underline;
+  }
 
-ul li ul li{
-    display: none;
-}
+  .logo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  }
 
-ul li:hover {
-    display: block;
-} 
+/* Album */
+div.album_1:hover {
+    border: 1px solid #777;
+    padding-bottom: 5px;
+    border-radius: 10px;
+  }
 
+  button.btn:hover {
+    background-color: whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 3px 3px 3px #aaaaaa;
+  }
 
-ul li a:hover {
-    background-color: blue;
-} */
+/* Features */
+.card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 14px 80px 18px 36px;
+    cursor: pointer;
+  }
 
+  .card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  }
+
+ 
 .card {
     border: 5px;
 }
@@ -48,6 +67,12 @@ ul li a:hover {
 .card-text {
     text-align: left;
 }
+
+/* Blog 2 */
+  .blog_2 {
+    background : rgba(37, 36, 36, 0.5);
+    border: 1px solid black;
+  }
 
 
 .cause-summary-section {

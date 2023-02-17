@@ -18,6 +18,66 @@
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <style>
+      /* a.nav-link:link, a:visited {
+        background-color: white;
+        color: blue;
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      a.nav-link:hover, a:active {
+        background-color: rgb(34, 34, 224)
+        color: white;
+      } */
+
+/* Navbar */
+      /* .logo:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      } */
+
+/* Album */
+      /* div.album_1:hover {
+        border: 1px solid #777;
+        padding-bottom: 5px;
+        border-radius: 10px;
+      }
+
+      button.btn:hover {
+        background-color: whitesmoke;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-shadow: 3px 3px 3px #aaaaaa;
+      } */
+
+
+/* Features */
+    /* .card{
+      border-radius: 4px;
+      background: #fff;
+      box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+      padding: 14px 80px 18px 36px;
+      cursor: pointer;
+    }
+
+    .card:hover{
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    } */
+
+  /* Blog 2 */
+  /* .blog_2 {
+    background : rgba(37, 36, 36, 0.5);
+    border: 1px solid black;
+  } */
+  
+      
+    </style>
 </head>
 
 <body>
@@ -25,7 +85,7 @@
       <!--Navbar-->
       <div class="container">
         <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
-          <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <a href="index.html" class="logo d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none p-1">
             <img src="main_logo.png" alt="" class="bi me-2" width="70" height="60">
             <span class="fs-4 fw-semibold">Animal Welfare</span>
           </a>
@@ -35,9 +95,9 @@
                 <a href="index.html" class="nav-link active" aria-current="page">Home</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+              <a class="nav-link dropdown-toggle" href="about.html" data-bs-toggle="dropdown" aria-expanded="false">About</a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">What We Do</a></li>
+                <li><a class="dropdown-item" href="about.html">What We Do</a></li>
                 <li><a class="dropdown-item" href="#">Causes</a></li>
                 <li><a class="dropdown-item" href="#">Ways to Help</a></li>
               </ul>
@@ -64,11 +124,11 @@
 
 
   <!--Hero-->
-      <div class="cause-page-banner d-flex align-items-center" style="background: url('https://res.cloudinary.com/project-world-impact/image/upload/h_800,w_1400/v1654275139/system/cause/Animals/animal-shelters/1.jpg') no-repeat center center; background-size: cover;background-attachment: fixed; height: 600px; color: #ccc;">         
+      <div class="cause-page-banner d-flex align-items-center" style="background: url('https://res.cloudinary.com/project-world-impact/image/upload/h_800,w_1400/v1654275139/system/cause/Animals/animal-shelters/1.jpg'), radial-gradient(#999, #555); no-repeat center center; background-size: cover;background-attachment: fixed; height: 600px; color: #fff;">         
         <div class="px-4 py-5 text-center container">
-            <h1 class="display-5 fw-bold ">BUILD NEW LIVES FOR STREET ANIMALS</h1>
+            <h1 class="fw-bold ">DISCOVER AND LEARN ABOUT</h4>
+            <h1 class="title fw-bold mb-5">ANIMAL WELFARE</h1>
           <div class="col-lg-6 mx-auto">
-              <p class="lead mb-4">Worlds’s stray animal population numbers nearly 600 million. However, World’s shelter system already faces population stress with less than 9 million animals. SAFI’s work finding forever homes for these neglected animals not only gives each pet the love they deserve but frees up critically important housing and veterinary capacity for those remaining in shelters.</p>
               <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                   <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Share</button>
                   <button type="button" class="btn btn-secondary btn-lg px-4">Follow</button>
@@ -102,14 +162,14 @@
     </section>
     <div class="album py-3 bg-light">
         <div class="container">       
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-md-4 g-3">
+          <div class="row d-flex justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-md-4 g-3 ">
 
-            <div class="col">
+            <div class="album_1 col-lg-3 col-md-9 col-sm-12 p-2">
               <div class="elementor-image">
                 <img decoding="async" width="100%" height="225" src="https://media.istockphoto.com/photos/cat-and-dog-sleeping-puppy-and-kitten-sleep-picture-id1168451046?b=1&k=20&m=1168451046&s=612x612&w=0&h=RPHJBHJrHgXYFRcHx-AvI7c8s-2Jv6NhGmn3oIVtbtA=" class="attachment-full size-full" alt="Animal Cruelty" loading="lazy" srcset="https://media.istockphoto.com/photos/cat-and-dog-sleeping-puppy-and-kitten-sleep-picture-id1168451046?b=1&k=20&m=1168451046&s=612x612&w=0&h=RPHJBHJrHgXYFRcHx-AvI7c8s-2Jv6NhGmn3oIVtbtA= 640w, https://media.istockphoto.com/photos/cat-and-dog-sleeping-puppy-and-kitten-sleep-picture-id1168451046?b=1&k=20&m=1168451046&s=612x612&w=0&h=RPHJBHJrHgXYFRcHx-AvI7c8s-2Jv6NhGmn3oIVtbtA= 300w" sizes="(max-width: 640px) 100vw, 640px">
                 <div class="container py-3">
                   <div class="flex flex-column">
-                    <div class="text-center mb-3">Human Society Inc</div>
+                    <div class="fw-bold text-center mb-3">Human Society Inc</div>
                     <div class="text-start mb-2">LOCATION: United States of America</div>
                     <div class="text-start mb-2">CAUSES: Animals</div>
                     <div class="btn-group" >
@@ -123,12 +183,12 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="album_1 col-lg-3 col-md-9 col-sm-12 p-2">
               <div class="elementor-image">
                 <img decoding="async" width="100%" height="225" src="https://images.pexels.com/photos/433333/pexels-photo-433333.jpeg?auto=compress&cs=tinysrgb&w=600" class="attachment-full size-full" alt="Animal Cruelty" loading="lazy" srcset="https://images.pexels.com/photos/433333/pexels-photo-433333.jpeg?auto=compress&cs=tinysrgb&w=600 640w, https://images.pexels.com/photos/433333/pexels-photo-433333.jpeg?auto=compress&cs=tinysrgb&w=600 300w" sizes="(max-width: 640px) 100vw, 640px">
                 <div class="container py-3">
                   <div class="flex flex-column">
-                    <div class="text-center mb-3">Armory Foundation</div>
+                    <div class="fw-bold text-center mb-3">Armory Foundation</div>
                     <div class="text-start mb-2">LOCATION: United States of America</div>
                     <div class="text-start mb-2">CAUSES: Education</div>
                     <div class="btn-group" >
@@ -140,12 +200,12 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="album_1 col-lg-3 col-md-9 col-sm-12 p-2">
               <div class="elementor-image">
                 <img decoding="async" width="100%" height="225" src="https://media.istockphoto.com/id/1160932512/photo/portrait-of-excited-elementary-school-pupils-on-playing-field-at-break-time.jpg?b=1&s=612x612&w=0&k=20&c=2MnuVkg01TdWG3zrMknKsixpSXwcmBnsvE5EWuUXSY4=" class="attachment-full size-full" alt="Animal Cruelty" loading="lazy" srcset="https://media.istockphoto.com/id/1160932512/photo/portrait-of-excited-elementary-school-pupils-on-playing-field-at-break-time.jpg?b=1&s=612x612&w=0&k=20&c=2MnuVkg01TdWG3zrMknKsixpSXwcmBnsvE5EWuUXSY4= 640w, hhttps://media.istockphoto.com/id/1160932512/photo/portrait-of-excited-elementary-school-pupils-on-playing-field-at-break-time.jpg?b=1&s=612x612&w=0&k=20&c=2MnuVkg01TdWG3zrMknKsixpSXwcmBnsvE5EWuUXSY4= 300w" sizes="(max-width: 640px) 100vw, 640px">
                 <div class="container py-3">
                   <div class="flex flex-column">
-                    <div class="text-center mb-3">Blue Water Surrender</div>
+                    <div class="fw-bold text-center mb-3">Blue Water Surrender</div>
                     <div class="text-start mb-2">LOCATION: United States of America</div>
                     <div class="text-start mb-2">CAUSES: Children</div>
                     <div class="btn-group" >
@@ -157,12 +217,12 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="album_1 col-lg-3 col-md-9 col-sm-12 p-2">
               <div class="elementor-image">
                 <img decoding="async" width="100%" height="225" src="https://media.istockphoto.com/id/1181366400/photo/in-the-hands-of-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-on.jpg?b=1&s=612x612&w=0&k=20&c=FiJ1Y22CEv7fgiQSR6zvYpo9wDe_upE6FS5d7vYKXUI=" class="attachment-full size-full" alt="Animal Cruelty" loading="lazy" srcset="https://media.istockphoto.com/id/1181366400/photo/in-the-hands-of-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-on.jpg?b=1&s=612x612&w=0&k=20&c=FiJ1Y22CEv7fgiQSR6zvYpo9wDe_upE6FS5d7vYKXUI= 640w, https://media.istockphoto.com/id/1181366400/photo/in-the-hands-of-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-on.jpg?b=1&s=612x612&w=0&k=20&c=FiJ1Y22CEv7fgiQSR6zvYpo9wDe_upE6FS5d7vYKXUI= 300w" sizes="(max-width: 640px) 100vw, 640px">
                 <div class="container py-3">
                   <div class="flex flex-column">
-                    <div class="text-center mb-3">Fort Collins Museum of Discovery </div>
+                    <div class="fw-bold text-center mb-3">Fort Collins Museum of Discovery </div>
                     <div class="text-start mb-2">LOCATION: United States of America</div>
                     <div class="text-start mb-2">CAUSES: Environment</div>
                     <div class="btn-group" >
@@ -208,7 +268,7 @@
         </div>
       </div>
 
-<!--Blog-->
+<!--Blog_1-->
     <div class="container-fluid g-0">
       <div class="row">
         <div class="col">
@@ -232,41 +292,43 @@
     </div>
 
 
-<!--Blog-->
-    <div class="container-fluid">
-        <div class="row text-bg-dark" style="background-image:url('https://res.cloudinary.com/project-world-impact/image/upload/h_800,w_1400/v1654275139/system/cause/Animals/Wild-Animals-Captivity/3.jpg');background-size:cover;background-position: center center; ">
-          <div class="col-6">
-            <div class="p-4 p-md-5 rounded">
-              <h1 class="display-4 fw-bold ">ANIMAL WELFARE NEWS</h1>
-              <p class="lead my-3">Check out the latest news and articles about Animal Welfare.</p>
-              <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+<!--Blog_2-->
+    <div class="container-fluid p-0">
+        <div class=" text-bg-dark" style="background-image:url('https://res.cloudinary.com/project-world-impact/image/upload/h_800,w_1400/v1654275139/system/cause/Animals/Wild-Animals-Captivity/3.jpg');background-size:cover;background-position: center center; ">
+          <div class="blog_2 row">
+            <div class="col-6">
+              <div class="p-4 p-md-5 rounded">
+                <h1 class="display-3 fw-bold ">ANIMAL WELFARE NEWS</h1>
+                <p class="lead my-3">Check out the latest news and articles about Animal Welfare.</p>
+                <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+              </div>
             </div>
-          </div>
-          <div class="col-6">
-            <div class="p-2 p-md-3 rounded">
-              <p class="fw-bold ">No 'Cow Hug Day' On February 14, Centre Withdraws Appeal - NDTV</p>
-              <p class="lead my-3">NDTV | 10 February 2023</p>
-              <p><a href="#" class="text-white fw-bold">Read More</a></p>
-            </div>
-            <div class="p-2 p-md-3 rounded">
-              <p class="fw-bold ">Animal Welfare Board withdraws appeal to celebrate Feb 14 as 'Cow Hug Day' - Deccan Herald</p>
-              <p class="lead my-3">Deccan Herald | 10 February 2023</p>
-              <p><a href="#" class="text-white fw-bold">Read More</a></p>
-            </div>
-            <div class="p-2 p-md-3 rounded">
-              <p class="fw-bold ">Animal Welfare Board withdraws appeal to celebrate February 14 as 'Cow Hug Day' amid criticism - Indiatimes.com</p>
-              <p class="lead my-3">Indiatimes.com | 10 February 2023</p>
-              <p><a href="#" class="text-white fw-bold">Read More</a></p>
-            </div>
-            <div class="p-2 p-md-3 rounded">
-              <p class="fw-bold ">Spain's Congress excludes hunting dogs from new animal rights law - Reuters.com</p>
-              <p class="lead my-3">Reuters.com | 09 February 2023</p>
-              <p><a href="#" class="text-white fw-bold">Read More</a></p>
-            </div>
-            <div class="p-2 p-md-3 rounded">
-              <p class="fw-bold ">Dog Adoptions Are Free Through Valentine’s Day At The Escambia Animal Shelter - NorthEscambia.com</p>
-              <p class="lead my-3">NorthEscambia.com | 11 February 2023</p>
-              <p><a href="#" class="text-white fw-bold">Read More</a></p>
+            <div class="col-6">
+              <div class="p-2 p-md-3 rounded">
+                <p class="fw-bold ">No 'Cow Hug Day' On February 14, Centre Withdraws Appeal - NDTV</p>
+                <p class="lead my-3">NDTV | 10 February 2023</p>
+                <p><a href="#" class="text-white fw-bold">Read More</a></p>
+              </div>
+              <div class="p-2 p-md-3 rounded">
+                <p class="fw-bold ">Animal Welfare Board withdraws appeal to celebrate Feb 14 as 'Cow Hug Day' - Deccan Herald</p>
+                <p class="lead my-3">Deccan Herald | 10 February 2023</p>
+                <p><a href="#" class="text-white fw-bold">Read More</a></p>
+              </div>
+              <div class="p-2 p-md-3 rounded">
+                <p class="fw-bold ">Animal Welfare Board withdraws appeal to celebrate February 14 as 'Cow Hug Day' amid criticism - Indiatimes.com</p>
+                <p class="lead my-3">Indiatimes.com | 10 February 2023</p>
+                <p><a href="#" class="text-white fw-bold">Read More</a></p>
+              </div>
+              <div class="p-2 p-md-3 rounded">
+                <p class="fw-bold ">Spain's Congress excludes hunting dogs from new animal rights law - Reuters.com</p>
+                <p class="lead my-3">Reuters.com | 09 February 2023</p>
+                <p><a href="#" class="text-white fw-bold">Read More</a></p>
+              </div>
+              <div class="p-2 p-md-3 rounded">
+                <p class="fw-bold ">Dog Adoptions Are Free Through Valentine’s Day At The Escambia Animal Shelter - NorthEscambia.com</p>
+                <p class="lead my-3">NorthEscambia.com | 11 February 2023</p>
+                <p><a href="#" class="text-white fw-bold">Read More</a></p>
+              </div>
             </div>
           </div>
         </div>

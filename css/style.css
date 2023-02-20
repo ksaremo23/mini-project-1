@@ -1,7 +1,12 @@
 
 
+.s_title{
+    font-size: 3vw;
+}
+
 .title {
-    font-size: 750% ;
+    /* font-size: 750% ; */
+    font-size: 9vw;
   }
 
 
@@ -39,9 +44,13 @@ div.album_1:hover {
 
   button.btn:hover {
     background-color: whitesmoke;
-    padding-left: 10px;
-    padding-right: 10px;
+    color: blue;
     box-shadow: 3px 3px 3px #aaaaaa;
+  }
+
+/* Donate */
+  a.btn:hover{
+    color: blue;
   }
 
 /* Features */
@@ -73,6 +82,13 @@ div.album_1:hover {
     background : rgba(37, 36, 36, 0.5);
     border: 1px solid black;
   }
+
+
+  /* Featurettes */
+.featurette:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+}
 
 
 .cause-summary-section {

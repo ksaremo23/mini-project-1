@@ -43,14 +43,13 @@ div.album_1:hover {
   }
 
   button.btn:hover {
-    background-color: whitesmoke;
-    color: blue;
-    box-shadow: 3px 3px 3px #aaaaaa;
+    font-weight: bold;
+    background: none;
   }
 
 /* Donate */
   a.btn:hover{
-    color: blue;
+    font-weight: bolder;
   }
 
 /* Features */
